@@ -7,20 +7,23 @@ header {
 }
 
 .squares {
-    background-color: #21a4b3;
+    background-color: #29b5c9;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
 
- div {
+.squares div {
     display: flex;
-  
+    height: 700px;
+    position: relative;
+    width: 1152px;
 }
 .squares .first-block {
-      background-color: #f48c06;
+    background-color: #f4bc06;
     border-radius: 8px;
-    box-shadow: -15px 16px 12px #00000073;
+    box-shadow: -12px 15px 11px #00000073;
     height: 160px;
     left: 98px;
     position: absolute;
@@ -28,9 +31,9 @@ header {
     width: 468px;
 }
 .squares .second-block {
-    background-color: #f48c06;
+    background-color: #f4bc06;
     border-radius: 8px;
-    box-shadow: -15px 16px 12px #00000073;
+    box-shadow: -12px 15px 11px #00000073;
     height: 160px;
     left: 586px;
     position: absolute;
@@ -39,9 +42,9 @@ header {
 }
 
 .squares .third-block {
-    background-color: #f48c06;
+    background-color: #f4bc06;
     border-radius: 8px;
-    box-shadow: -15px 16px 12px #00000073;
+    box-shadow: -12px 15px 11px #00000073;
     height: 160px;
     left: 98px;
     position: absolute;
@@ -50,9 +53,9 @@ header {
 }
 
 .squares .fourth-block {
-    background-color: #f48c06;
+    background-color: #f4bc06;
     border-radius: 8px;
-    box-shadow: -15px 16px 12px #00000073;
+    box-shadow: -12px 15px 11px #00000073;
     height: 160px;
     left: 586px;
     position: absolute;
@@ -60,9 +63,9 @@ header {
     width: 468px;
 }
 .squares .fifth-block {
-    background-color: #f48c06;
+    background-color: #f4bc06;
     border-radius: 8px;
-    box-shadow: -15px 16px 12px #00000073;
+    box-shadow: -12px 15px 11px #00000073;
     height: 160px;
     left: 0;
     position: absolute;
@@ -71,9 +74,9 @@ header {
 }
 
 .squares .sixth-block {
-    background-color: #f48c06;
+    background-color: #f4bc06;
     border-radius: 8px;
-    box-shadow: -15px 16px 12px #00000073;
+    box-shadow: -12px 15px 11px #00000073;
     height: 160px;
     left: 586px;
     position: absolute;
@@ -266,7 +269,6 @@ header {
     top: 450px;
     width: 468px;
 }
-
 .squares .text-wrapper {
     color: #ffffff;
     font-family: "Roboto-Regular", Helvetica;
@@ -305,5 +307,3 @@ header {
     top: 63px;
     white-space: nowrap;
 }
-
-
