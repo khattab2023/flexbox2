@@ -20,6 +20,8 @@ header {
 
 }
 
+
+
 .container .first-block {
     background-color: #f4bc06;
     border-radius: 8px;
@@ -209,7 +211,7 @@ header {
 .fifth-block .rectangle-15 {
     background-color: #9d0208;
     border-radius: 5px;
-    height: 78px;
+    height: 120px;
     width: 78px;
 }
 
